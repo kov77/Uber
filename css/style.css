@@ -1,0 +1,774 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+	font-family: 'Roboto-Black';
+	src: local('Roboto'),
+         url('../fonts/fonts/Roboto-Black.ttf') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roboto-Medium';
+	src: local('Roboto'),
+         url('../fonts/fonts/Roboto-Medium.ttf') format('woff2');
+    font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roboto-Bold';
+	src: local('Roboto'),
+         url('../fonts/fonts/Roboto-Bold.ttf') format('woff2');
+    font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roboto-Light';
+	src: local('Roboto'),
+         url('../fonts/fonts/Roboto-Light.ttf') format('woff2');
+    font-weight: normal;
+	font-style: normal;
+}
+@import url('_media.css');
+
+.promo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0 60px 0;
+    background: url(../img/Bg_1section.jpg) center center/cover no-repeat;
+    min-height: 800px;
+}
+.logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.promo__logo_text {
+    margin: 8px 0 50px 0;
+    font-size: 15px;
+    font-family: Roboto-Medium;
+    color: #fff;
+    line-height: 15px;
+}
+.header {
+    margin: 30px 15px 30px 15px;
+    font-size: 80px;
+    font-family: Roboto-Black ;
+    color: #fff;
+    line-height: 60px;
+
+}
+.subheader {
+    font-size: 41px;
+    font-family: Roboto-Black;
+    color: #f9bf3b;
+    line-height: 30px;
+}
+.line {
+    width: 290px;
+    height: 2px;
+    background: #fff;
+}
+.header_cover {
+    display: flex;
+    align-items: center;
+}
+.description {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 0 70px 0;
+    font-size: 21px;
+    font-family: Roboto-Light;
+    color: #fff;
+}
+span{
+    font-size: 24px;
+    color: #f9bf3b;
+    font-family: Roboto-Bold;
+}
+.buttons {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 19px;
+    font-family: Roboto-Medium;
+    width: 310px;
+    height: 75px;
+    background: #38b3d7;
+    border: none;
+    border-radius:  12px;
+    box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.7);
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+
+}
+.buttons:hover {
+    transform: scale(1.05, 1.05);
+}
+.arrow_image {
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+.arrow_image:hover {
+    transform: translateY(5px) scale(1.13, 1.13);
+}
+
+.more {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+
+}
+.more_text {
+    margin-bottom: 10px;
+    color: #fff;
+    font-family: Roboto-Light;
+}
+
+.about {
+    min-height: 600px;
+    width: 100vw;
+    background: #efefef;
+    padding: 80px 0 75px 0;
+    
+
+}
+.header_text {
+    font-size: 34px;
+    font-family: Roboto-Medium;
+    font-weight: 400;
+    color: #252525;
+
+}
+.color_line {
+    margin: 24px 0;
+    width: 220px;
+    height: 4px;
+    background-color: #f9bf3b;
+    border: none;
+}
+.about_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_subheader {
+    font-size: 23px;
+    font-family: Roboto-Medium;
+    color: #4a4a4a
+}
+.about_items_cover {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about_items {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    align-items: center;
+}
+
+.about_items_text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    color: #4a4a4a;
+    font-size: 15px;
+    text-align: center;
+    
+}
+.information {
+    min-height: 550px;
+    background: url(../img/bg_section3.jpg) left bottom no-repeat;
+    padding: 100px 385px 100px 780px;
+}
+.information_header {
+    font-size: 25px;
+    color: #38b3d7;
+    font-family: Roboto-Bold;
+    font-weight: 700;
+}
+.information_text {
+    margin-top: 30px;
+    font-size: 17px;
+    color: #4a4a4a;
+    font-family: Roboto-Light;
+    line-height: 23px;
+
+}
+.information_text_bold {
+    font-family: Roboto-Bold;
+    color: #000;
+    font-size: 17px;
+    font-weight: 550;
+    line-height: 23px;
+}
+
+.upon_graduation {
+    min-height: 450px;
+    background: url(../img/bg_sect4.jpg) center center/cover no-repeat;
+    padding: 85px 300px 75px 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.header_text_white  {
+    color: #fff;
+    font-family: Roboto-Medium;
+    font-weight: 500 ;
+}
+.upon_graduation_cover {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+}
+.upon_graduation_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    justify-content: space-between;
+}
+.graduation_item_img{
+    width: 100px;
+    height: 100px;
+    background: #b4e2ff ;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.graduation_item_text {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 17px;
+    color: #fff;
+    font-family: Roboto-light;
+    line-height: 23px;
+}
+.gift {
+    min-height: 630px;
+    padding: 90px 390px 85px 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: #efefef;
+}
+
+.gift_text {
+    margin: 45px 0;
+    text-align: center;
+    font-size: 30px;
+    font-family: Roboto-Light;
+    font-weight: 500;
+    line-height: 43px;
+    color: #4a4a4a;
+
+}
+
+.time {
+    min-height: 515px;
+    padding: 80px 0 70px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.time_img {
+    margin-bottom: 40px;
+}
+.time_header {
+    font-size: 32px;
+    font-family: Roboto-light;
+    font-weight: 300;
+}
+.time_date {
+    margin: 30px 0;
+    color: #299cbd;
+    font-size: 36px;
+    font-family: Roboto-Black;
+}
+
+.time_subheader {
+    font-size: 26px;
+    font-family: Roboto-Light;
+    color: #4a4a4a;
+    font-weight: 400;
+    line-height: 26px;
+}
+.footer {
+    min-height: 155px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+ text-decoration: none;
+ color: #828282;
+ font-size: 15px;
+ font-family: Roboto-Medium;
+}
+.links {
+    text-decoration: underline;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.suppotr_serv {
+    width: 2px;
+    height: 17px;
+    background: #828282;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+}
+.number {
+    display: flex;
+    justify-content: center;
+    margin-top: 3px;
+}
+
+.call_us {
+    color: #828282;
+    font-size: 15px;
+    font-family: Roboto-Medium;
+    margin-right:4px;
+}
+
+@media screen and (min-width: 1200px) {
+    .information {
+        min-height: 550px;
+        padding: 100px 50px 100px 700px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .subheader {
+        font-size: 30px;
+    }
+    .header {
+        font-size: 55px;
+    }
+    .description {
+        font-size: 18px;
+    }
+    .header_text {
+        font-size: 30px;
+    }
+    .about_items_cover {
+        margin-top: 45px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .about_items {
+        margin-top: 20px;
+    }
+    .about_items_text {
+        margin-top: 15px;
+    }
+    .about_subheader {
+        font-size: 21px;
+    }
+    .information {
+        background: #fff;
+        padding: 30px 70px;
+        min-height: 450px;
+    
+    }
+    .information_header {
+        text-align: center;
+    }
+    .information_text {
+        margin-top: 30px;
+        line-height: 23px;
+    }
+    .upon_graduation {
+        padding: 85px 100px 75px 100px;
+    }
+    .gift {
+        min-height: 630px;
+        padding: 90px 150px 85px 150px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .promo {
+        min-height: 500px;
+    }
+
+    .subheader {
+        font-size: 25px;
+        line-height: 22px;
+    }
+    .line {
+        width: 150px;
+    }
+    .header {
+        font-size: 45px;
+        line-height: 35px;
+    }
+    .description {
+        margin: 30px 20px 70px;
+        text-align: center;
+    }
+    .about {
+        padding: 30px;
+        min-height: 500px;
+    }
+    .header_text {
+        font-size: 26px;
+    }
+    .about_items_cover {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .about_items {
+        margin-top: 20px;
+    }
+    .about_items_text {
+        margin-top: 15px;
+    }
+    .about_subheader {
+        font-size: 17px;
+    }
+    .information {
+        background: #fff;
+        padding: 30px 70px;
+        min-height: 450px;
+    
+    }
+    .information_header {
+        text-align: center;
+    }
+    .information_text {
+        margin-top: 30px;
+        line-height: 23px;
+    }
+    .upon_graduation {
+        min-height: 400px;
+        padding: 35px 40px;
+    }
+    .upon_graduation_cover {
+        margin-top: 20px;
+    }
+    .graduation_item_text {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .gift {
+        min-height: 550px;
+        padding: 30px 50px;
+    }
+    .gift_text {
+        margin: 30px;
+        font-size: 22px;
+    }
+    .time {
+        min-height: 470px;
+        padding: 30px 20px;
+    }
+    .time_header {
+        font-size: 28px;
+    }
+    .time_date {
+        margin: 18px 0;
+        font-size: 32px;
+    }
+    .time_subheader {
+        font-size: 23px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .promo {
+        min-height: 500px;
+    }
+    .promo__logo_text {
+        margin: 8px 0 30px 0;
+    }
+    .subheader {
+        font-size: 19px;
+        line-height: 17px;
+    }
+    .line {
+        width: 50px;
+    }
+    .header {
+        margin: 15px;
+        font-size: 33px;
+        line-height: 30px;
+    }
+    .description {
+        margin: 20px 20px 40px 20px;
+        text-align: center;
+        font-size: 16px;
+    }
+    .buttons {
+        font-size: 15px;
+        width: 200px;
+        height: 54px;
+        border-radius: 8px;
+    }
+    .more {
+        display: none;
+    }
+    .about {
+        padding: 30px;
+        min-height: 500px;
+    }
+    .header_text {
+        font-size: 19px;
+    }
+    .color_line {
+        margin-bottom: 0;
+        width: 180px;
+        height: 2px;
+    }
+    .about_items_cover {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .about_items {
+        margin-top: 25px;
+    }
+    .about_items_text {
+        margin-top: 15px;
+    }
+    .about_subheader {
+        margin-top: 15px;
+        font-size: 15px;
+        text-align: center;
+    }
+    .information {
+        background: #fff;
+        padding: 30px 70px;
+        min-height: 450px;
+    
+    }
+    .upon_graduation_item {
+        width: 155px;
+    }
+    .information_header {
+        text-align: center;
+    }
+    .information_text {
+        margin-top: 30px;
+        line-height: 23px;
+    }
+    .upon_graduation {
+        min-height: 400px;
+        padding: 35px 40px;
+    }
+    .upon_graduation_cover {
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+    .graduation_item_text {
+        font-size: 14px;
+        line-height: 19px;
+        margin-top: 15px;
+    }
+    .upon_graduation_item{
+        margin-top: 20px;
+    }
+    .gift {
+        min-height: 550px;
+        padding: 30px 50px;
+    }
+    .gift_text {
+        margin: 30px;
+        font-size: 20px;
+        line-height: 36px;
+    }
+    .time {
+        min-height: 420px;
+        padding: 30px 20px;
+    }
+    .time_header {
+        font-size: 25px;
+    }
+    .time_date {
+        margin: 11px 0;
+        font-size: 22px;
+    }
+    .time_subheader {
+        font-size: 19px;
+    }
+    .footer {
+        min-height: 100px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .promo {
+        padding: 30px 10px 40px 10px;
+        min-height: 500px;
+    }
+    .promo__logo_text {
+        margin: 8px 0 30px 0;
+    }
+    .subheader {
+        font-size: 16px;
+        line-height: 17px;
+    }
+    .line {
+        width: 30px;
+    }
+    .header {
+        margin: 15px;
+        font-size: 27px;
+        line-height: 30px;
+    }
+    .description {
+        margin: 20px 20px 40px 20px;
+        text-align: center;
+        font-size: 12px;
+    }
+    span {
+        font-size: 17px;
+    }
+    .buttons {
+        font-size: 15px;
+        width: 200px;
+        height: 54px;
+        border-radius: 8px;
+    }
+    .more {
+        display: none;
+    }
+    .about {
+        padding: 30px;
+        min-height: 300px;
+    }
+    .header_text {
+        font-size: 15px;
+    }
+    .color_line {
+        margin-top: 10px;
+        margin-bottom: 0;
+        width: 180px;
+        height: 2px;
+    }
+    .about_items_cover {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .about_items {
+        width: inherit;
+        align-items: start;
+    }
+    .about_items_text {
+        margin-top: 12px;
+        text-align: left;
+    }
+    .about_subheader {
+        font-size: 12px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .about_items_img {
+        display: none;
+    }
+    .information {
+        background: #fff;
+        padding: 30px;
+        min-height: 450px;
+    
+    }
+    .upon_graduation_item {
+        width: 155px;
+    }
+    .information_header {
+        text-align: center;
+        font-size: 22px;
+    }
+    .information_text {
+        margin-top: 20px;
+        line-height: 18px;
+        font-size: 14px;
+    }
+    .information_text_bold {
+        font-size: 14px;
+    }
+    .upon_graduation {
+        min-height: 400px;
+        padding: 25px 10px;
+    }
+    .upon_graduation_cover {
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+    .graduation_item_text {
+        font-size: 14px;
+        line-height: 19px;
+        margin-top: 15px;
+    }
+    .upon_graduation_item{
+        margin-top: 20px;
+        width: 140px;
+    }
+    .gift {
+        min-height: 550px;
+        padding: 30px 20px;
+    }
+    .gift_text {
+        margin: 16px;
+        font-size: 20px;
+        line-height: 36px;
+    }
+    .time {
+        min-height: 270px;
+        padding: 30px 20px;
+    }
+    .time_header {
+        font-size: 25px;
+        text-align: center;
+    }
+    .time_date {
+        margin: 11px 0;
+        font-size: 22px;
+    }
+    .time_subheader {
+        font-size: 19px;
+    }
+    .time_img {
+        display: none;
+    }
+    .footer {
+        min-height: 100px;
+    }
+}

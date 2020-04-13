@@ -1,0 +1,8 @@
+@media screen and (max-width : 1025px) {
+    .subheader {
+        font-size: 30px;
+    }
+    .header {
+        font-size: 55px;
+    }
+}
